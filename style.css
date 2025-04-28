@@ -1,57 +1,43 @@
+/* General Page Styling */
 body {
-    background-color: #1a1a1a;
-    color: white;
     font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
     text-align: center;
+    padding: 20px;
 }
 
-
-
-h1 {
-    font-size: 2em;
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.faq-description {
-    font-size: 1.2em;
-    color: #bbbbbb;
-}
-
-
-
+/* FAQ Section */
 .faq {
     max-width: 600px;
     margin: auto;
+    text-align: left;
 }
 
+/* Question Styling */
 .faq-item {
-    background: #333;
+    background: white;
     padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: #00aaff;
+    font-size: 1.2em;
+    color: #007bff;
 }
 
-p, li {
-    font-size: 1em;
-    color: white;
-}
-
-
-
-ul {
-    margin-top: 10px;
-    padding-left: 20px;
-}
-
+/* Links */
 a {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
-    font-weight: bold;
 }
 
 a:hover {
